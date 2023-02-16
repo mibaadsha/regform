@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter your personal information</title>
+    <style type="text/css">
+        label {
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            width: 200px;
+            height: 30px;
+            display: inline-block
+            
+           }
+        #form {
+            padding: 20px;
+            }
+        legend {
+                font-size: 50px;
+                text-align: center;
+                color: #000007;
+            }
+        input{
+            padding: 15px;
+            font-size: 20px;
+            
+        }
+        select{
+            padding: 15px;
+            font-size: 20px;
+        }
+        #submit{
+            font-weight: bold;
+            width: 200px;
+            text-align: center;
+            color:whitesmoke;
+            background:#00008B;
+        }
+        #reset {
+            background: #191c24;
+            font-weight: bold;
+            width: 200px;
+            text-align: center; 
+            color:#ffffff
+            }
+        p {
+            font-size: 20px;
+            font-family: inherit;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div id="form">
+    <form>
+<fieldset style="background-color:rgb(255, 144, 125);">
+    <legend>Creative SignUp Form</legend><br/><br/>
+    <label for="user">Username</label>
+    <input type="text" id="user" name="user" placeholder="Username" required />
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname" placeholder="First Name" required />
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname"name="lname" placeholder="Last Name" required /><br/><br/>
+    <label for="faname">Father's Name</label>
+    <input type="text" id="faname"name="faname" placeholder="Father's Name" required />
+    <label for="maname">Mather's Name</label>
+    <input type="text" id="maname"name="maname" placeholder="Mather's Name" required />
+    <label for="sname">Spouse Name</label>
+    <input type="text" id="sname" name="sname" placeholder="Spouse name"/><br/><br/>
+    <label for="Gender">Gender</label>
+    <input type="radio" id="gender" name="gender" value="male" />
+    <label for="Gender">Male</label>
+    <input type="radio" id="gender" name="gender" value="female" />
+    <label for="Gender">Female</label>
+    <label for="Marital status">Marital status</label>
+    <select id="marridstatus" name="marridstatus">
+    <option value="Single">Single</option>
+    <option value="Married">Married</option>
+    <option value="Widowed">Widowed</option>
+    <option value="Divorced">Divorced</option>
+    </select>
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="dob" placeholder="dd/mm/yyyy" required/><br/><br/>
+    <label for="religion">Religion</label>
+    <input type="checkbox" id="religion" name="religion" value="Islam"/>
+    <label for="religion">Islam</label>
+    <input type="checkbox" id="religion" name="religion" value="Hinduism"/>
+    <label for="religion">Hinduism</label>
+    <input type="checkbox" id="religion" name="religion" value="Buddhism"/>
+    <label for="religion">Buddhism</label>
+    <input type="checkbox" id="religion" name="religion" value="Christianity"/>
+    <label for="religion">Christianity</label>
+    <input type="checkbox" id="religion" name="religion" value="Christianity"/>
+    <label for="religion">Christianity</label>
+    <input type="checkbox" id="religion" name="religion" value="Other"/>
+    <label for="religion">Othere</label><br/><br/>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Valid email address" required/>
+    <label for="cemail">Confirm Email</label>
+    <input type="email" id="cemail" name="cemail" placeholder="confirm your email " required/><br/>
+    <label for="pass">Password</label>
+    <input type="password" id="pass" name="pass" placeholder="Password" required/>
+    <label for="cpass">Confirm Password</label>
+    <input type="password" id="cpass" name="cpass" placeholder="Confirm Password" required/><br/><br/>
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required/><br/>
+    <label for="pic">Upload Picture</label>
+    <input type="file" id="pic" name="pic" placeholder="Upload Profile Picture" required/><br/>
+    <p style="color: green;"><input type="checkbox" id="Terms" name="Terms" value="Terms"><b><i>I agree to the Terms & Conditions</i></b></p><br/><br/>
+    <input type="submit" id="submit" name="submit" value="Sing Up"/>
+    <input type="reset" id="reset" name="reset" value="Clear"/>
+    <p>Have an account already? <a href="html/login.html" target="_blank">Login&nbsp;&nbsp;</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="html/reset.html" target="_blank">&nbsp;&nbsp;Forget Password?</a></p>
+</fieldset>
+</div>
+</body>
+</html>

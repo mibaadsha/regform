@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        #form{
+            padding: 40px;
+        }
+        #submit {
+            padding: 20px;
+            width: 400px;
+            color: white;
+            background: #004225;
+        }
+        input{
+            padding: 15px;
+            border-radius: 15px;
+            font-size: 25px;
+            text-align: center;
+        }
+        h1{
+            font-size: 50px;
+            text-align: left;
+        }
+        label{
+            text-align: left;
+            font-size: 30px;
+            font-weight: bold;
+            color: #151B8D;
+            display: inline-block;
+            width: 300px;
+            height: 50px;
+        }
+        input[type=submit]{
+           background: #15317E;
+           color: aliceblue;
+           font-weight: bold;
+        }
+        p{
+            font-size: 50px;
+            color: rgb(1, 1, 24);
+        }
+        a{
+            font-size: 20px;
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="form">
+<form>
+    <fieldset style="background-color:#FDBD01">
+    <legend><h1>Sign In</h1></legend>
+    <label for="Email">Username or Email</label><br/>
+    <input type="email" id="email" name="email" placeholder="Username or Email" required/><br/><br/><br/>
+    <label for="pass">Password</label><br/>
+    <input type="password" id="pass" name="pass" placeholder="Password" required/>
+    <p style="font-size: 25px; color: rgb(55, 0, 255);"><input type="checkbox">Remember me?</p>
+    <input type="submit" id="submit" name="submit" value="LOGIN"/><br/><br/>
+    <p></p><a href="reset.html" target="_blank">Forget Password</a></P>
+    <P style="font-size: 20px;">Don't have an account?<a href="../index.html" target="_blank">&nbsp;Sign Up</a></P>
+
+</fieldset>
+</form>
+    </div>
+
+</body>
+</html>

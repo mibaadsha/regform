@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forget Password</title>
+    <style>
+      label {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
+        height: 50px;
+        display: inline-block;
+      }
+      #form {
+        padding: 20px;
+      }
+      legend {
+        font-size: 25px;
+        text-align: left;
+        color: #030303;
+      }
+      input {
+        padding: 15px;
+        font-size: 20px;
+      }
+      select {
+        padding: 15px;
+        font-size: 20px;
+      }
+      #submit {
+        font-weight: bold;
+        width: 500px;
+        text-align: center;
+        color: #fcfcff;
+        background: #0041c2;
+      }
+      #reset {
+        font-weight: bold;
+        width: 200px;
+        text-align: center;
+        color: #00008b;
+      }
+      p {
+        font-size: 20px;
+        font-family: inherit;
+        color: rgb(81, 82, 83);
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset style="background-color: #e3f9a6">
+      <legend><h1>Forget Password</h1></legend>
+      <p>Enter your email and we'll send you a link to reset your password.</p>
+      <label for="Email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Email" required /><br /><br />
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Phone Number" required /><br /><br />
+      <label for="opass">Old Password</label>
+      <input type="password" id="opass" name="opass" placeholder="Old Password" required /><br /><br />
+      <label for="npass">New Password</label>
+      <input type="password" id="npass" name="npass" placeholder="New Password" required /><br /><br />
+      <label for="cpass">Confirm Password</label>
+      <input type="password" id="cpass" name="cpass" placeholder="Confirm Password" required /><br /><br />
+      <input type="submit" id="submit" name="submit" value="Submit" />
+      <p>< Back to<a href="login.html" target="_blank">&nbsp;login</a></p>
+    </fieldset>
+  </body>
+</html>
